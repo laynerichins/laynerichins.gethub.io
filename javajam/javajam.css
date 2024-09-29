@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=RocknRoll+One&display=swap');
+html {
+  background-color: #FCEBB6;
+  color: #221811;
+  font-family: "Roboto", sans-serif;
+}
+body {
+  background-color: #FCEBB6;
+  color: #221811;
+  font-family: "Roboto", sans-serif;
+  padding: 0%;
+}
+header {
+  background-color: #d2b48c;
+  color: #8c3826;
+  text-align: center;
+  font-family: "RocknRoll One", sans-serif;
+  
+ }
+h1 {
+  line-height: 200%;
+}
+h2 {
+  color: #8c3826;
+}
+p {
+  color: #221811;
+  text-align: left;
+  padding: 0;
+}
+footer {
+  background-color: #d2b48c;
+  color: #8c3826;
+  text-align: center;
+  width: 100%;
+  font-size: 60em;
+  font-style: italic;
+}
+nav {
+  text-align: center;
+  font-weight: bold;
+}
+
+#wrapper {
+  width: 80%;
+  background-color: #fefaeb;
+  margin-right: auto;
+  margin-left: auto;
+}
