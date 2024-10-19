@@ -1,4 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=RocknRoll+One&display=swap');
+*{
+  box-sizing: border-box;
+}
 html {
   background-image: url(images/fadedroad50.jpg);
   background-repeat: no-repeat;
@@ -7,14 +10,20 @@ html {
   color: #221811;
   font-family: "Roboto", sans-serif;
 }
+
 #wrapper {
   min-width: 900px;
   max-width: 1280px;
-  box-shadow: 100px black;
+  box-shadow: 3px 3px 3px black;
+ 
+  width: 80%;
+  background-color: #231814;
+  margin-right: auto;
+  margin-left: auto;
 }
 body {
   background-color: #d2b48c;
-  
+  background-image: url(images/fadedroad50.jpg);
   color: #221811;
   font-family: "Roboto", sans-serif;
   padding: 0%;
@@ -22,19 +31,23 @@ body {
   border: medium;
 }
 header {
+  background-image: url(images/coffeelogo.jpg);
   background-color: #d2b48c;
-  color: #8c3826;
-  text-align: center;
+  background-repeat: no-repeat;
   font-family: "RocknRoll One", sans-serif;
   padding-top: 5px;
   padding-bottom: 5px;
-  
+  padding-left: 240px;
+  color: #231814;  
  }
 main{
-  background-color: #fefaeb;
+  background-color: #FEF6C2;
   color: #221811;
-  padding: 0em 2em 2em 2em;
-  margin: 0px;
+  overflow: auto;
+  padding-left: 0px;
+  padding-right: 0px;
+  margin-left: 200px;
+  padding-top: 0px;
 }
 img {
   padding-right: 10px;
@@ -42,13 +55,32 @@ img {
 }
 #homehero {
   background-image: url(images/hero.jpg);
-  background-size: cover;
+  background-size: 100% 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+#heromugs {
+  background-image: url(images/heromugs.jpg);
+  background-size: 100% 100%;
+  height: 300px;
+  background-repeat: no-repeat;
+}
+#heroguitar{
+  background-image: url(images/heroguitar.jpg);
+  background-size: 100% 100%;
   height: 300px;
   background-repeat: no-repeat;
 }
 .details {
   padding-left: 20%;
   padding-right: 20%;
+  overflow: auto;
+}
+.onethird {
+  width: 33%;
+  float: left;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 dt {
   color: #8c3826;
@@ -56,23 +88,38 @@ dt {
 }
 h1 {
   font-size: 3em;
+  
 }
 h2 {
   color: #8c3826;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 h3 {
   color: #8c3826;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 h4 {
   background-color: #d2b48c;
   font-size: 1.2em;
   padding-left: .5em;
-  padding-bottom: .25em;
+  padding-bottom: 0;
+  text-transform: uppercase;
+  border-bottom: #221811 2px solid;
+  clear: left;
+}
+.floatleft {
+  float: left;
+  padding-right: 2em;
+  padding-bottom: 2em;
+
 }
 p {
   color: #221811;
   text-align: left;
-  padding: 0;
+  padding-left: 2%;
+  padding-right: 2%;
 }
 footer {
   background-color: #d2b48c;
@@ -85,19 +132,43 @@ footer {
   
 }
 nav {
+  
+  width: 200px;
   text-align: center;
   font-weight: bold;
   font-size: 1.5em;
   padding-top: 5px;
   padding-bottom: 5px;
+  width: 200px;
+  float: left;
+  
+}
+nav ul {
+  list-style-type: none;
+  padding-left: 0;
+
 }
 nav a {
   text-decoration: none;
   
 }
-#wrapper {
-  width: 80%;
-  background-color: #fefaeb;
-  margin-right: auto;
-  margin-left: auto;
+nav a:link {
+  color: #fef6c2;
+}
+nav a:visited {
+  color: #d2b48c;
+}
+nav a:hover {
+  color: #cc9933;
+}
+header a:link {
+  color: #231814;
+  text-decoration: none;
+  
+}
+header a:visited {
+  color: #231814;
+}
+header a:hover {
+  color: #fef6c2
 }
