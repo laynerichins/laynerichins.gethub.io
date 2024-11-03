@@ -1,174 +1,314 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=RocknRoll+One&display=swap');
-*{
-  box-sizing: border-box;
+@import url('https://fonts.googleapis.com/css2?family=Bayon&display=swap');
+
+* {
+	box-sizing: border-box;
 }
-html {
-  background-image: url(images/fadedroad50.jpg);
-  background-repeat: no-repeat;
-  background-attachment: fixed;
-  background-size: cover;
-  color: #221811;
-  font-family: "Roboto", sans-serif;
+
+/* Configure Small Layout */
+body {
+	background-color: #D2B48C;
+	color: #221811;
+	font-family: Tahoma, Arial, sans-serif;
+	margin: 0;
 }
 
 #wrapper {
-  min-width: 900px;
-  max-width: 1280px;
-  box-shadow: 3px 3px 3px black;
- 
-  width: 80%;
-  background-color: #231814;
-  margin-right: auto;
-  margin-left: auto;
+	background-color: #231814;
+	padding: 0;
 }
-body {
-  background-color: #d2b48c;
-  background-image: url(images/fadedroad50.jpg);
-  color: #221811;
-  font-family: "Roboto", sans-serif;
-  padding: 0%;
-  margin: 0%;
-  border: medium;
-}
+
 header {
-  background-image: url(images/coffeelogo.jpg);
-  background-color: #d2b48c;
-  background-repeat: no-repeat;
-  font-family: "RocknRoll One", sans-serif;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  padding-left: 240px;
-  color: #231814;  
- }
-main{
-  background-color: #FEF6C2;
-  color: #221811;
-  overflow: auto;
-  padding-left: 0px;
-  padding-right: 0px;
-  margin-left: 200px;
-  padding-top: 0px;
+	background-color: #D2B48C;
+	background-image: url(images/cup.jpg);
+	background-repeat: no-repeat;
+	color: #231814;
+	height: 128px;
+	padding-left: 105px;
+	padding-top: 5px;
+	padding-bottom: 5px;
 }
-img {
-  padding-right: 10px;
-  padding-left: 10px;
-}
-#homehero {
-  background-image: url(images/hero.jpg);
-  background-size: 100% 100%;
-  height: 300px;
-  background-repeat: no-repeat;
-}
-#heromugs {
-  background-image: url(images/heromugs.jpg);
-  background-size: 100% 100%;
-  height: 300px;
-  background-repeat: no-repeat;
-}
-#heroguitar{
-  background-image: url(images/heroguitar.jpg);
-  background-size: 100% 100%;
-  height: 300px;
-  background-repeat: no-repeat;
-}
-.details {
-  padding-left: 20%;
-  padding-right: 20%;
-  overflow: auto;
-}
-.onethird {
-  width: 33%;
-  float: left;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-dt {
-  color: #8c3826;
-  font-weight: bold;
-}
-h1 {
-  font-size: 3em;
-  
-}
-h2 {
-  color: #8c3826;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-h3 {
-  color: #8c3826;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-h4 {
-  background-color: #d2b48c;
-  font-size: 1.2em;
-  padding-left: .5em;
-  padding-bottom: 0;
-  text-transform: uppercase;
-  border-bottom: #221811 2px solid;
-  clear: left;
-}
-.floatleft {
-  float: left;
-  padding-right: 2em;
-  padding-bottom: 2em;
 
+header a {
+	text-decoration: none;
 }
-p {
-  color: #221811;
-  text-align: left;
-  padding-left: 2%;
-  padding-right: 2%;
-}
-footer {
-  background-color: #d2b48c;
-  color: #8c3826;
-  text-align: center;
-  font-size: 0.8em;
-  font-style: italic;
-  padding: 1em;
-  border-top: 2px solid #8c3826;
-  
-}
-nav {
-  
-  width: 200px;
-  text-align: center;
-  font-weight: bold;
-  font-size: 1.5em;
-  padding-top: 5px;
-  padding-bottom: 5px;
-  width: 200px;
-  float: left;
-  
-}
-nav ul {
-  list-style-type: none;
-  padding-left: 0;
 
-}
-nav a {
-  text-decoration: none;
-  
-}
-nav a:link {
-  color: #fef6c2;
-}
-nav a:visited {
-  color: #d2b48c;
-}
-nav a:hover {
-  color: #cc9933;
-}
 header a:link {
-  color: #231814;
-  text-decoration: none;
-  
+	color: #231814;
 }
+
 header a:visited {
-  color: #231814;
+	color: #231814;
 }
+
 header a:hover {
-  color: #fef6c2
+	color: #FEF6C2;
+}
+
+h1 {
+	font-size: 2em;
+	font-family: 'Bayon', sans-serif;
+}
+
+h2 {
+	color: #8C3826;
+}
+
+h3,
+dt {
+	color: #8C3826;
+}
+
+h4 {
+	background-color: #D2B48C;
+	font-size: 1.2em;
+	padding-left: .5em;
+	padding-bottom: 0;
+	text-transform: uppercase;
+	border-bottom: 1px solid #221811;
+	clear: left;
+}
+
+nav {
+	text-align: center;
+	font-size: 1.5em;
+}
+
+nav a {
+	text-decoration: none;
+}
+
+nav a:link {
+	color: #FEF6C2;
+}
+
+nav a:visited {
+	color: #D2B48C;
+}
+
+nav a:hover {
+	color: #CC9933;
+}
+
+nav ul {
+	display: flex;
+	flex-direction: column;
+	font-size: 1.25em;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+nav li {
+	border-bottom: 1px solid #FEF6C2;
+	padding: .5em 1em;
+	width: 100%;
+}
+
+main {
+	background-color: #FEF6C2;
+	display: block;
+	padding: 0 0 2em 0;
+}
+
+h2,
+h3,
+h4,
+p,
+div,
+ul,
+dl {
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+main ul {
+	padding-left: 2em;
+}
+
+.details {
+	padding-left: 20%;
+	padding-right: 20%;
+	overflow: auto;
+}
+
+img {
+	border-style: none;
+	max-width: 100%;
+	height: auto;
+}
+
+#homehero {
+	height: 300px;
+	background-image: url(images/road.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#heromugs {
+	height: 300px;
+	background-image: url(images/threemugs.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+
+#heroguitar {
+	height: 300px;
+	background-image: url(images/guitar.jpg);
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+}
+#herojobs {
+  height: 300px;
+  background-image: url(images/herojobs.jpg);
+  background-repeat: no-repeat;
+  background-size: 100% 100%;
+}
+
+#mobile {
+	display: inline;
+}
+
+#desktop {
+	display: none;
+}
+
+footer {
+	background-color: #D2B48C;
+	font-size: .60em;
+	font-style: italic;
+	text-align: center;
+	padding-bottom: 1em;
+	border-top: 2px solid #8C3826;
+}
+
+/* Configure Table */
+table {
+  border-collapse: collapse;
+  width: 90%;
+  margin: 0 auto;
+  background-color: #D2B48C;
+  
+
+}
+table tr, td{
+  padding: 10px;
+}
+table tr:nth-child(odd) {
+  background-color: #d1b48c; /* Light tan, matching your color scheme */
+}
+
+table tr:nth-child(even) {
+  background-color: #FEF6C2; /* Even lighter tan */
+}
+
+/* Configure the Form */
+form {
+  display: flex;
+  flex-direction: column;
+  padding-left: 1em; width: 80%;
+}
+input, textarea {
+  margin-bottom: .5em;
+}
+/* Configure Medium Layout */
+@media (min-width: 600px) {
+	header {
+		padding-left: 0;
+		text-align: center;
+	}
+
+	h1 {
+		font-size: 3em;
+	}
+
+	nav ul {
+		flex-flow: row nowrap;
+		justify-content: space-around;
+	}
+
+	nav li {
+		border-bottom: none;
+	}
+
+	#homehero {
+		background-image: url(images/hero.jpg);
+		height: 300px;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+	}
+
+	#heromugs {
+		background-image: url(images/heromugs.jpg);
+  }
+  
+  #herojobs {
+    background-image: url(images/herojobs.jpg);    
+  }
+
+  
+
+	#heroguitar {
+		background-image: url(images/heroguitar.jpg);
+	}
+
+	#flow {
+		display: flex;
+		flex-direction: row;
+	}
+
+	#mobile {
+		display: none;
+	}
+
+	#desktop {
+		display: inline;
+	}
+
+	.details {
+		display: flex;
+		flex-direction: row;
+	}
+
+	h4 {
+		margin-left: 10%;
+		margin-right: 10%;
+	}
+}
+
+/* Configure Large Layout */
+@media (min-width: 1024px) {
+	@supports (display: grid) {
+		header {
+			grid-area: header;
+		}
+
+		nav {
+			grid-area: nav;
+		}
+
+		main {
+			grid-area: main;
+		}
+
+		footer {
+			grid-area: footer;
+		}
+
+		#wrapper {
+			display: grid;
+			grid-template:
+				"header header"
+				"nav    main"
+				"footer footer"
+				/ 200px;
+		}
+
+		nav ul {
+			flex-direction: column;
+		}
+
+		header {
+			background-image: url(images/coffeelogo.jpg);
+		}
+	}
 }
