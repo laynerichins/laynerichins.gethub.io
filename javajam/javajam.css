@@ -159,7 +159,7 @@ img {
 }
 #herojobs {
   height: 300px;
-  background-image: url(images/herojobs.jpg);
+  background-image: url(images/coffeecup.jpg);
   background-repeat: no-repeat;
   background-size: 100% 100%;
 }
@@ -240,7 +240,7 @@ input, textarea {
 	#heromugs {
 		background-image: url(images/heromugs.jpg);
   }
-  
+
   #herojobs {
     background-image: url(images/herojobs.jpg);    
   }
