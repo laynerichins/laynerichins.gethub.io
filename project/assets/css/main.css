@@ -3273,7 +3273,7 @@ body.landing #page-wrapper {
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.1)
   ); /* Gradient background */
-  background-image: url("/images/autonomous8r.webp"), url("images/combine.png");
+  background-image: url("/images/combine.webp"), url("images/combine.png");
   background-color: #666;
 
   background-position: center center;
