@@ -3273,7 +3273,7 @@ body.landing #page-wrapper {
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.1)
   ); /* Gradient background */
-  background-image: url("/images/autonmomous8r.jpg"), url("/images/autonmomous8r.jpg");
+  background-image: url("https://laynerichins.github.io/project/images/autonmomous8r.jpg"), url("/images/autonmomous8r.jpg");
   background-color: #666;
 
   background-position: center center;
