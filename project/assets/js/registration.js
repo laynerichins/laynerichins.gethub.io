@@ -25,12 +25,17 @@ document.getElementById('numGuests').addEventListener('change', function() {
 
 document.getElementById('registrationForm').addEventListener('submit', function(event) {
     event.preventDefault();
+    const firstName = document.getElementById('firstName').value;
+    const lastName = document.getElementById('lastName').value;
+    const numGuests = parseInt(document.getElementById('numGuests').value) + 1; // Include the person who registered
     // Display a success notification
-    alert('Registration submitted!');
+    alert(`Thank you ${firstName} ${lastName}, you have registered ${numGuests} guest(s).\nLooking forward to seeing you on Feb. 5th.`);
     // Reset the form
     document.getElementById('registrationForm').reset();
     // Redirect to index.html
-    window.location.href = 'index.html';
+    setTimeout(function() {
+        window.location.href = 'index.html';
+    }, 1000); // Delay to allow the alert to be seen
 });
 
 document.getElementById('newsletterForm').addEventListener('submit', function(event) {
@@ -41,5 +46,7 @@ document.getElementById('newsletterForm').addEventListener('submit', function(ev
     // Reset the form
     document.getElementById('newsletterForm').reset();
     // Redirect to index.html
-    window.location.href = 'index.html';
+    setTimeout(function() {
+        window.location.href = 'index.html';
+    }, 1000); // Delay to allow the alert to be seen
 });
