@@ -2,7 +2,6 @@
 @import url("https://fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,300italic,400italic");
 
 /*
-	Alpha by HTML5 UP
 	html5up.net | @ajlkn
 	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
 */
@@ -2052,6 +2051,7 @@ code {
   .row.gtr-200.gtr-uniform > * {
     padding-top: 4em;
   }
+  
 }
 
 /* Container */
@@ -2197,8 +2197,8 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 select:focus,
 textarea:focus {
-  border-color: #e89980;
-  box-shadow: 0 0 0 2px #e89980;
+  border-color: #367c2b;
+  box-shadow: 0 0 0 2px #367c2b;
 }
 
 select {
@@ -2303,8 +2303,8 @@ input[type="radio"]:checked + label:before {
 
 input[type="checkbox"]:focus + label:before,
 input[type="radio"]:focus + label:before {
-  border-color: #e89980;
-  box-shadow: 0 0 0 1px #e89980;
+  border-color: #367c2b;
+  box-shadow: 0 0 0 1px #367c2b;
 }
 
 input[type="checkbox"] + label:before {
@@ -2511,7 +2511,7 @@ input[type="radio"] + label:before {
 }
 
 .icon.major.accent2 {
-  background: #e89980;
+  background: #367c2b;
   color: #ffffff;
 }
 
@@ -2935,7 +2935,7 @@ input[type="submit"].primary,
 input[type="reset"].primary,
 input[type="button"].primary,
 .button.primary {
-  background-color: #e89980;
+  background-color: #367c2b;
   color: #ffffff !important;
 }
 
@@ -3235,7 +3235,7 @@ body.landing #page-wrapper {
 .dropotron li.active > span,
 .dropotron li:hover > a,
 .dropotron li:hover > span {
-  background: #e89980;
+  background: #367c2b;
   color: #ffffff;
 }
 
@@ -3282,7 +3282,8 @@ body.landing #page-wrapper {
   color: #ffffff;
   text-align: center;
   border: #2b2b2b solid 1px;
-  ;
+  min-height:700px ;
+  
 }
 
 #banner :last-child {
@@ -3901,6 +3902,7 @@ body.landing #main {
 
   #main {
     padding: 4em 0 0 0;
+    margin-top: -14em;
   }
 
   #main > header {
@@ -3919,7 +3921,7 @@ body.landing #main {
 
   body.landing #main {
     padding: 0;
-    margin-top: 0;
+    margin-top: -14em;
   }
 
   /* Footer */
@@ -4038,6 +4040,7 @@ body.landing #main {
 
   #main > .box:first-child {
     margin-top: 0;
+    margin-top: -5em;
   }
 
   /* CTA */
