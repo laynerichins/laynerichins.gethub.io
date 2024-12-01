@@ -3265,7 +3265,10 @@ body.landing #page-wrapper {
 }
 
 /* Banner */
-
+#registrationForm{
+  padding-left: 1em;
+  padding-right: 1em;
+}
 #banner {
   /* background-attachment: scroll,							fixed; */
   background: linear-gradient(

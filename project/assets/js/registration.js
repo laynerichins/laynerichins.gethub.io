@@ -25,8 +25,12 @@ document.getElementById('numGuests').addEventListener('change', function() {
 
 document.getElementById('registrationForm').addEventListener('submit', function(event) {
     event.preventDefault();
-    // Add your form submission logic here
+    // Display a success notification
     alert('Registration submitted!');
+    // Reset the form
+    document.getElementById('registrationForm').reset();
+    // Redirect to index.html
+    window.location.href = 'index.html';
 });
 
 document.getElementById('newsletterForm').addEventListener('submit', function(event) {
@@ -34,6 +38,8 @@ document.getElementById('newsletterForm').addEventListener('submit', function(ev
     const email = document.getElementById('email').value;
     // Display a success notification
     alert('Thank you for signing up!');
-    // Optionally, you can reset the form
+    // Reset the form
     document.getElementById('newsletterForm').reset();
+    // Redirect to index.html
+    window.location.href = 'index.html';
 });
