@@ -2051,7 +2051,6 @@ code {
   .row.gtr-200.gtr-uniform > * {
     padding-top: 4em;
   }
-  
 }
 
 /* Container */
@@ -2655,7 +2654,7 @@ ul.actions.special {
   -ms-justify-content: center;
   justify-content: center;
   width: 100%;
-  margin-left: 0
+  margin-left: 0;
 }
 
 ul.actions.special li:first-child {
@@ -2973,7 +2972,6 @@ input[type="button"]:disabled,
 #page-wrapper {
   padding-top: 3em;
   border: #2b2b2b solid 1px;
-  
 }
 
 body.landing #page-wrapper {
@@ -3089,7 +3087,6 @@ body.landing #page-wrapper {
   border: 0;
   font-size: 1.3em;
   font-weight: 400;
- 
 }
 
 #header nav > ul > li a:not(.button).icon:before {
@@ -3129,15 +3126,14 @@ body.landing #page-wrapper {
 #header input[type="reset"]:hover,
 #header input[type="button"]:hover,
 #header .button:hover {
-	background-color: rgba(255, 255, 255, 1);
+  background-color: rgba(255, 255, 255, 1);
 }
-
 
 #header input[type="submit"]:active,
 #header input[type="reset"]:active,
 #header input[type="button"]:active,
 #header .button:active {
-  	background-color: rgba(153, 153, 153, 1);
+  background-color: rgba(153, 153, 153, 1);
 }
 
 #header .container {
@@ -3265,10 +3261,11 @@ body.landing #page-wrapper {
 }
 
 /* Banner */
-#registrationForm{
+#registrationForm {
   padding-left: 1em;
   padding-right: 1em;
 }
+
 #banner {
   /* background-attachment: scroll,							fixed; */
   background: linear-gradient(
@@ -3276,7 +3273,8 @@ body.landing #page-wrapper {
     rgba(0, 0, 0, 0.7),
     rgba(0, 0, 0, 0.1)
   ); /* Gradient background */
-  background-image: url("https://laynerichins.github.io/project/images/autonmomous8r.jpg"), url("/images/autonmomous8r.jpg");
+  background-image: url("https://laynerichins.github.io/project/images/autonmomous8r.jpg"),
+    url("/images/autonmomous8r.jpg");
   background-color: #666;
 
   background-position: center center;
@@ -3285,8 +3283,7 @@ body.landing #page-wrapper {
   color: #ffffff;
   text-align: center;
   border: #2b2b2b solid 1px;
-  min-height:700px ;
-  
+  min-height: 700px;
 }
 
 #banner :last-child {
@@ -3307,9 +3304,8 @@ body.landing #page-wrapper {
   /* line-height: 3em; */
   margin: 0 0 0 0;
   padding-top: 100px;
-  
-  font-family: "Roboto", sans-serif;
 
+  font-family: "Roboto", sans-serif;
 }
 
 #banner p {
@@ -3332,9 +3328,9 @@ body.landing #page-wrapper {
 #banner input[type="reset"].primary,
 #banner input[type="button"].primary,
 #banner .button.primary {
-	background: rgba(255, 255, 255, 0.75);
-  	color: #161616 !important;
-	font-weight: 600;
+  background: rgba(255, 255, 255, 0.75);
+  color: #161616 !important;
+  font-weight: 600;
 }
 
 #banner input[type="submit"]:hover,
@@ -3342,7 +3338,6 @@ body.landing #page-wrapper {
 #banner input[type="button"]:hover,
 #banner .button:hover {
   background-color: rgba(255, 255, 255, 1);
-  
 }
 
 #banner input[type="submit"]:active,
@@ -3351,8 +3346,6 @@ body.landing #page-wrapper {
 #banner .button:active {
   background-color: rgba(255, 255, 255, 0.2);
 }
-
-
 
 /* Main */
 
@@ -3382,6 +3375,15 @@ body.landing #page-wrapper {
 
 body.landing #main {
   margin-top: -14em;
+}
+#main .row p {
+  font-size: 1em;
+  margin: 0;
+}
+
+#iframe {
+  width: 100%;
+  height: 100%;
 }
 
 /* Footer */
@@ -3429,6 +3431,68 @@ body.landing #main {
   border-left: 0;
   margin-left: 0;
   padding-left: 0;
+}
+
+#agenda > header {
+  padding: 1em;
+  border: #2b2b2b solid 1px;
+  text-align: center;
+  font-weight: 500;
+}
+
+#agenda > header h2 {
+  font-size: 3em;
+  margin: 0;
+  font-weight: bolder;
+}
+
+#agenda h3,
+h4 {
+  font-weight: bold;
+}
+#agenda .box {
+  padding: 1em;
+
+  margin: 0em;
+}
+
+#agenda .box p {
+  font-size: 0.5em;
+  margin: 0;
+}
+
+#agenda .agenda-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+#agenda .agenda-list li {
+  margin: 1em;
+}
+
+#agenda .agenda-list li p {
+  font-size: 1em;
+  margin: 0;
+}
+#contactUs > header {
+  padding: 1em;
+  border: #2b2b2b solid 1px;
+  text-align: center;
+  font-weight: 500;
+}
+
+#contactUs > header h2,
+p {
+  font-size: 3em;
+  margin: 0;
+  font-weight: bolder;
+  padding: 0.5em;
+}
+
+#contactUs .box {
+  padding: 1em;
+  border: #2b2b2b solid 1px;
+  margin: 1em;
 }
 
 /* CTA */
@@ -3631,8 +3695,6 @@ body.landing #main {
 
   #page-wrapper {
     padding-top: 0;
-	
-	
   }
 
   #header {
@@ -3653,7 +3715,6 @@ body.landing #main {
     -ms-transition: -ms-transform 0.5s ease;
     transition: transform 0.5s ease;
     padding-bottom: 1px;
-	
   }
 
   #navButton {
@@ -3886,7 +3947,6 @@ body.landing #main {
     margin-top: 2em;
   }
 
-  
   /* Banner */
 
   #banner {
@@ -3920,7 +3980,6 @@ body.landing #main {
     font-size: 2em;
     padding-bottom: 1em;
   }
-
 
   body.landing #main {
     padding: 0;
@@ -4077,4 +4136,3 @@ body.landing #main {
   height: 100%;
   border: 0;
 }
-

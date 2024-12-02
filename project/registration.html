@@ -1,87 +1,137 @@
-<!DOCTYPE HTML>
+<!DOCTYPE html>
 <html>
-<head>
-    <title>Registration - Stotz Precision Summit</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+  <head>
+    <title>
+        Registration - Stotz Precision Summit
+    </title>
+    <meta 
+        charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, user-scalable=no"
+    />
     <link rel="stylesheet" href="assets/css/main.css" />
-    <link rel="icon" type="image/png" href="images/favicon.png">
-</head>
-<body class="is-preload">
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+  </head>
+  <body class="is-preload">
     <div id="page-wrapper">
+      <!-- Header -->
+      <header id="header" class="registration">
+        <h1>
+          <a href="index.html"
+            ><img src="images/stotzprecisionlogo.png" alt="Precision Logo" height="40"/></a>
+        </h1>
+        <nav id="nav">
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="agenda.html">Agenda</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+            <li><a href="registration.html" class="button">Register Now</a></li>
+          </ul>
+        </nav>
+      </header>
 
-        <!-- Header -->
-        <header id="header" class="registration">
-            <h1><a href="index.html"><img src="images/stotzprecisionlogo.png" height="40"></a></h1>
-            <nav id="nav">
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="agenda.html">Agenda</a></li>
-                    <li><a href="contact.html">Contact Us</a></li>
-                    <li><a href="registration.html" class="button">Register Now</a></li>
-                </ul>
-            </nav>
+      <!-- Main -->
+      <section id="main" class="container">
+        <header class="major">
+          <h2>Register for the Stotz Precision Summit</h2>
+          <p>Please fill out the form below to register for the event.</p>
         </header>
 
-        <!-- Main -->
-        <section id="main" class="container">
-            <header class="major">
-                <h2>Register for the Stotz Precision Summit</h2>
-                <p>Please fill out the form below to register for the event.</p>
-            </header>
+        <form id="registrationForm">
+          <div class="row gtr-50 gtr-uniform">
+            <div class="col-6 col-12-mobilep">
+              <input
+                type="text"
+                name="firstName"
+                id="firstName"
+                placeholder="First Name"
+                required
+              />
+            </div>
+            <div class="col-6 col-12-mobilep">
+              <input
+                type="text"
+                name="lastName"
+                id="lastName"
+                placeholder="Last Name"
+                required
+              />
+            </div>
+            <div class="col-12">
+              <input
+                type="text"
+                name="organization"
+                id="organization"
+                placeholder="Organization Name"
+                required
+              />
+            </div>
+            <div class="col-12">
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="Email Address"
+                required
+              />
+            </div>
+            <div class="col-12">
+              <input
+                type="tel"
+                name="phone"
+                id="phone"
+                placeholder="Phone Number"
+                required
+              />
+            </div>
+            <div class="col-12">
+              <label for="numGuests">Number of Additional Guests</label>
+              <select name="numGuests" id="numGuests">
+                <option value="0">0</option>
+                <option value="1">1</option>
+                <option value="2">2</option>
+                <option value="3">3</option>
+                <option value="4">4</option>
+                <option value="5">5</option>
+                <option value="6">6</option>
+                <option value="7">7</option>
+                <option value="8">8</option>
+                <option value="9">9</option>
+                <option value="10">10</option>
+              </select>
+            </div>
+            <div id="guestInfo" class="col-12"></div>
+            <div class="col-12">
+              <input type="submit" value="Register" class="fit" />
+            </div>
+          </div>
+        </form>
+      </section>
 
-            <form id="registrationForm">
-                <div class="row gtr-50 gtr-uniform">
-                    <div class="col-6 col-12-mobilep">
-                        <input type="text" name="firstName" id="firstName" placeholder="First Name" required />
-                    </div>
-                    <div class="col-6 col-12-mobilep">
-                        <input type="text" name="lastName" id="lastName" placeholder="Last Name" required />
-                    </div>
-                    <div class="col-12">
-                        <input type="text" name="organization" id="organization" placeholder="Organization Name" required />
-                    </div>
-                    <div class="col-12">
-                        <input type="email" name="email" id="email" placeholder="Email Address" required />
-                    </div>
-                    <div class="col-12">
-                        <input type="tel" name="phone" id="phone" placeholder="Phone Number" required />
-                    </div>
-                    <div class="col-12">
-                        <label for="numGuests">Number of Additional Guests</label>
-                        <select name="numGuests" id="numGuests">
-                            <option value="0">0</option>
-                            <option value="1">1</option>
-                            <option value="2">2</option>
-                            <option value="3">3</option>
-                            <option value="4">4</option>
-                            <option value="5">5</option>
-                            <option value="6">6</option>
-                            <option value="7">7</option>
-                            <option value="8">8</option>
-                            <option value="9">9</option>
-                            <option value="10">10</option>
-                        </select>
-                    </div>
-                    <div id="guestInfo" class="col-12"></div>
-                    <div class="col-12">
-                        <input type="submit" value="Register" class="fit" />
-                    </div>
-                </div>
-            </form>
-        </section>
-
-        <!-- Footer -->
-        <footer id="footer">
-            <ul class="icons">
-                <li><a href="https://facebook.com/stotzprecision" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-                <li><a href="https://www.instagram.com/stotzprecisionag" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-            </ul>
-            <ul class="copyright">
-                <li>Copyright &copy; 2025. All rights reserved.</li>
-                <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
-            </ul>
-        </footer>
+      <!-- Footer -->
+      <footer id="footer">
+        <ul class="icons">
+          <li>
+            <a
+              href="https://facebook.com/stotzprecision"
+              class="icon brands fa-facebook-f"
+              ><span class="label">Facebook</span></a
+            >
+          </li>
+          <li>
+            <a
+              href="https://www.instagram.com/stotzprecisionag"
+              class="icon brands fa-instagram"
+              ><span class="label">Instagram</span></a
+            >
+          </li>
+        </ul>
+        <ul class="copyright">
+          <li>Copyright &copy; 2025. All rights reserved.</li>
+          <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+        </ul>
+      </footer>
     </div>
 
     <!-- Scripts -->
@@ -93,6 +143,5 @@
     <script src="assets/js/util.js"></script>
     <script src="assets/js/main.js"></script>
     <script src="assets/js/registration.js"></script>
-        
-</body>
+  </body>
 </html>
